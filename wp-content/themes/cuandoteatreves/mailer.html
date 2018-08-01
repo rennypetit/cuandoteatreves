@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <style type="text/css">
+
+/* Base ------------------------------ */
+      @import url('https://fonts.googleapis.com/css?family=Lato');
+      *:not(br):not(tr):not(html) {
+        font-family: 'Lato', sans-serif;
+        box-sizing: border-box;
+      }
+      
+      body {
+        width: 100% !important;
+        height: 100%;
+        margin: 0;
+        line-height: 1.4;
+        background-color: #F2F4F6;
+        color: #74787E;
+        -webkit-text-size-adjust: none;
+      }
+      
+      p,
+      ul,
+      ol,
+      blockquote {
+        line-height: 1.4;
+        text-align: left;
+      }
+      
+      a {
+        color: #3869D4;
+      }
+      
+      a img {
+        border: none;
+      }
+      
+      td {
+      word-break: break-word;
+      }
+      /* L
+  /* Layout ------------------------------ */
+      
+      .email-wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        -premailer-width: 100%;
+        -premailer-cellpadding: 0;
+        -premailer-cellspacing: 0;
+        background-color: #1f1f1f;
+      }
+      
+      .email-content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        -premailer-width: 100%;
+        -premailer-cellpadding: 0;
+        -premailer-cellspacing: 0;
+      }
+      /* Masthead ----------------------- */
+      
+      .email-masthead {
+        padding: 25px 0;
+        text-align: center;
+      }
+      .email-masthead img{
+        width: 15%;
+      }
+      
+      .email-masthead_logo {
+        width: 94px;
+      }
+      
+      .email-masthead_name {
+        font-size: 16px;
+        font-weight: bold;
+        color: #bbbfc3;
+        text-decoration: none;
+        text-shadow: 0 1px 0 white;
+      }
+      /* Body ------------------------------ */
+      
+      .email-body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        -premailer-width: 100%;
+        -premailer-cellpadding: 0;
+        -premailer-cellspacing: 0;
+        border-top: 1px solid #EDEFF2;
+        border-bottom: 1px solid #EDEFF2;
+        background-color: #FFFFFF;
+      }
+      
+      .email-body_inner {
+        width: 570px;
+        margin: 0 auto;
+        padding: 0;
+        -premailer-width: 570px;
+        -premailer-cellpadding: 0;
+        -premailer-cellspacing: 0;
+        background-color: #FFFFFF;
+      }
+      
+      .email-footer {
+        width: 570px;
+        margin: 0 auto;
+        padding: 0;
+        -premailer-width: 570px;
+        -premailer-cellpadding: 0;
+        -premailer-cellspacing: 0;
+        text-align: center;
+      }
+      .email-footer p{
+        color: #fff;
+      }
+      .body-action {
+        width: 100%;
+        margin: 30px auto;
+        padding: 0;
+        -premailer-width: 100%;
+        -premailer-cellpadding: 0;
+        -premailer-cellspacing: 0;
+        text-align: center;
+      }
+      
+      .body-sub {
+        margin-top: 25px;
+        padding-top: 25px;
+        border-top: 1px solid #EDEFF2;
+      }
+      
+      .content-cell {
+        padding: 35px;
+      }
+      /* Attribute list ------------------------------ */
+      
+      .attributes {
+        margin: 0 0 21px;
+      }
+      
+      .attributes_content {
+        background-color: #fafafa;
+        padding: 16px;
+      }
+      
+      .attributes_item {
+        padding: 0;
+      }
+      .attributes_item strong{
+        color:#2F3133;
+      }
+      .attributes_item img{
+        margin-top: 20px;
+        width:100%;
+      }
+      
+      /* Utilities ------------------------------ */
+      
+      .align-right {
+        text-align: right;
+      }
+      
+      .align-left {
+        text-align: left;
+      }
+      
+      .align-center {
+        text-align: center;
+      }
+      /*Media Queries ------------------------------ */
+      
+      @media only screen and (max-width: 600px) {
+        .email-body_inner,
+        .email-footer {
+          width: 100% !important;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .button {
+          width: 100% !important;
+        }
+      }
+      @media only screen and (max-width:767px){
+        .email-masthead img{
+          width:25%;
+        }
+      }
+      /* Type ------------------------------ */
+      
+      h1 {
+        margin-top: 0;
+        color: #2F3133;
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      h2 {
+        margin-top: 0;
+        color: #2F3133;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      h3 {
+        margin-top: 0;
+        color: #2F3133;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      p {
+        margin-top: 0;
+        color: #74787E;
+        font-size: 16px;
+        line-height: 1.5em;
+        text-align: center;
+      }
+      
+      p.sub {
+        font-size: 13px;
+      }
+      
+      p.center {
+        text-align: center;
+      }
+</style>
+ <table class="email-wrapper" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+     <td align="center">
+       
+       <table class="email-content" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+           <td class="email-masthead">
+             
+             <a href="" class="email-masthead_name"></a>
+           </td>
+         </tr>
+
+         <tr>
+           <td class="email-body" cellpadding="0" cellspacing="0" width="100%">
+             
+             <table class="email-body_inner" cellpadding="0" cellspacing="0" width="570" align="center">
+               
+               <tr>
+                 <td class="content-cell">
+                   
+                  <h1>
+                     Estimado 
+                        = @client.name
+                        , ¡Gracias por contactarnos!
+                      %p Le recordamos su información de contacto
+                  </h1>
+                  <p>
+                    Le recordamos su información de contacto
+                  </p>
+
+                  <table class="attributes" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td class="attributes_content">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <td class="attributes_item">
+                              <strong> Nombre:</strong>
+                                = @client.name
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="attributes_item">
+                              <strong>Correo</strong>
+                                = @client.name
+                            </td>
+                          </tr>
+
+                          
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <p>
+                    En la brevedad posible nos estaremos comunicando con usted.
+                  </p>
+                  <br>
+                  <strong>
+                    Un cordial saludo, Atención al cliente - Prana Comunica
+                  </strong>
+                 </td>
+               </tr>
+             </table>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <table class="email-footer" cellpadding="0" cellspacing="0" width="570" align="center">
+               <tr>
+                 <td class="content-cell" align="center">
+                   <p class="sub align-center">Digimart Comunica 2017 | Todos los derechos reservados</p>
+                   <p class="sub align-center">Desarrollado por</p>
+                   <a href="http://slicegroup.xyz"></a>
+                   <strong>Slice Group</strong>
+                 </td>
+               </tr>
+             </table>
+           </td>
+         </tr>
+       </table>
+     </td>
+   </tr>
+ </table>
+
+</body>
+</html>

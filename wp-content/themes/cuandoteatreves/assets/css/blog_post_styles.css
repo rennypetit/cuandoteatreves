@@ -1,0 +1,110 @@
+.banner_blog{
+	height: 11em;
+	text-align: center;
+	color: #000;
+	/* margin-top: 100px; */
+	margin: 9px;
+	max-width: 900px;
+	/* margin: 80px auto; */
+	padding: 80px;
+	margin: 0 auto;
+}
+.banner_blog-contendido h1{
+	font-weight: 800;
+	font-size: 40px;
+}
+.banner_blog-contendido h4{
+	font-weight: lighter;
+	font-size: 15px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+.img-blogg {
+	text-align: center;
+}
+.img-blogg img{
+	text-align: center;
+	position: relative;
+	margin: 60px 0;
+
+}
+.texto-blogg{
+	margin: 0px 70px;
+	text-align: justify;
+}
+.parallax{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#efectos{
+	background-image: url('https://images.unsplash.com/photo-1511225160131-38607044acc7?ixlib=rb-0.3.5&s=7e61429ce86a13776775fa88f7c3ec9a&auto=format&fit=crop&w=1050&q=80');
+}
+.blog_post_highlight::before
+{
+	display: block;
+	position: absolute;
+	/* top: 0; */
+	left: 74px;
+	width: 5px;
+	height: 10%;
+	background: #452b78;
+	content: '';
+}
+.tag
+{
+	display: inline-block;
+	border: 1px solid #5542b1;
+	width: 80px;
+	padding: 3px;
+	font-size: 27px;
+	text-align: center;
+}
+.tag a
+{
+	color: #5542b1;
+}
+.comparte{
+	text-align: center;
+	padding: 40px;
+}
+.comparte h4{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 800;
+}
+.sidebar_section_title
+{
+	font-size: 18px;
+	font-weight: 400;
+	color: #2e2e2e;
+}
+.blog_post_highlight
+{
+	font-size: 18px;
+	line-height: 1.66;
+	font-style: italic;
+	font-weight: 500;
+	color: #909090;
+	margin-top: 47px;
+	margin-bottom: 48px;
+}
+.tag .fa-facebook-f:before, .fa-facebook:before {
+	font-size: 1.5rem;
+}
+.tags a{border:1px solid #5542b1;display:inline-block;color:#717171;background:#FFF;-webkit-box-shadow:0 1px 1px 0 rgba(180,180,180,0.1);box-shadow:0 1px 1px 0 rgba(180,180,180,0.1);-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;transition:all .1s ease-in-out;border-radius:2px;margin:0 3px 6px 0;padding:5px 10px}
+.tags a:hover{border-color:#08C;}
+.tags a.primary{color:#FFF;background-color:#428BCA;border-color:#357EBD}
+.tags a.success{color:#FFF;background-color:#5CB85C;border-color:#4CAE4C}
+.tags a.info{color:#FFF;background-color:#5BC0DE;border-color:#46B8DA}
+.tags a.warning{color:#FFF;background-color:#F0AD4E;border-color:#EEA236}
+.tags a.danger{color:#FFF;background-color:#D9534F;border-color:#D43F3A}
+
+
+
+
+
+
+

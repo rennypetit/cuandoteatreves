@@ -1,0 +1,1 @@
+[15-Jul-2018 15:36:00 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home02/cuandoteatreves/public_html/wp-content/plugins/wp-mail-smtp/src/Providers/MailerInterface.php on line 3

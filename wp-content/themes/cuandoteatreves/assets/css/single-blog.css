@@ -1,0 +1,179 @@
+
+
+.blog-info section p {
+	line-height: 1.6em;
+}
+.post-image img {
+	display: block;
+	margin: 0;
+	opacity: 1;
+	transition: opacity 0.20s linear 0s;
+	-o-transition: opacity 0.20s linear 0s;
+	-ms-transition: opacity 0.20s linear 0s;
+	-moz-transition: opacity 0.20s linear 0s;
+	-webkit-transition: opacity 0.20s linear 0s;
+}
+.post-date .date {
+	font-size: 3em;
+}
+.post-date .month {
+	font-size: 1.6em;
+	margin-bottom: 1em;
+	margin-top: -0.7em;
+}
+.post-date {
+	font-weight: 100;
+	opacity: 0.3;
+	text-align: center;
+}
+.right-align .post-date {
+	float: right;
+	text-align: right;
+}
+.poost{
+	background: none repeat scroll 0 0 #6313E2;
+}
+.titulo-post{
+
+}
+.titulo-post h1{
+	position: absolute;
+	top: 4em;
+	background: #fff;
+	right: 0;
+	padding: .1em;
+}
+
+.aside-block {
+	background: none repeat scroll 0 0 #fff;
+	margin-bottom: 1.25em;
+	padding: 2em;
+}
+.blog-info aside img {
+	display: block;
+	margin: 0;
+}
+.blog-info aside h3 {
+	color: #0b192f;
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 1em;
+	margin: 0 0 0.625em;
+}
+.blog-info aside p {
+	color: #637693;
+	font-size: 0.85em;
+}
+
+
+#article-section article {
+	background: none repeat scroll 0 0 #fff;
+}
+#article-section p {
+	color: #637693;
+}
+#article-section h1, #article-section h2, #article-section h3, #article-section h4, #article-section h5, #article-section h6 {
+	color: #0b192f;
+	font-weight: 100;
+}
+#article-section h1 {
+	font-size: 3em;
+	font-weight: 100;
+	margin-top: 0;
+}
+#article-section h3, #article-section h4, #article-section h5, #article-section h6 {
+	font-weight: 300;
+}
+#article-section .post-text {
+	padding: 2em 3em 3em;
+}
+#article-section .post-date p {
+	color: #fff;
+}
+#article-section blockquote {
+	border-left: 2px solid #637693;
+	color: #637693;
+	font-family: georgia;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin-left: 0.625em;
+	padding-left: 0.625em;
+}
+#article-section .post-text img {
+	margin: 1.25em 0;
+	max-width: 100%;
+	width: auto;
+}
+
+@media screen and (max-width: 800px) {
+	
+	#article-section .post-text {
+		padding: 1em 2em 2em;
+	}
+	.right-align .post-text {
+		text-align: left;
+	}
+	.right-align .post-date {
+		text-align: center;
+	}
+
+}
+
+.blog-info {
+	background:none repeat scroll 0 0 #d3d3d3;
+	font-size:100%;
+	margin:0;
+	font-family:"Open Sans",Arial,sans-serif;
+	color:#444;
+}
+
+
+.blog-info img {
+	border:0;
+	height:auto;
+	width:100%;
+}
+/*Vista general blog*/
+
+
+
+
+/*vist de atrevete*/
+
+.txt-blog{
+	position: relative!important;
+	margin-bottom: 24px;
+}
+.titulo-categoria h2{
+	font-size: 24px;
+}
+
+.articulos-card {
+	height: auto!important;
+}
+.parrafo-blog {
+	margin: 1em 0 30px;
+}
+.atrevetes{
+	text-align: center!important;
+}
+.titulo-blog-categoria{
+	margin-bottom: 6em!important;
+	text-align: center!important;
+	color: #ff7500!important;
+}
+.articulos-blog h3{
+	color: #000!important;
+	/* 	margin: 15px -13px; */
+	margin: 15px 0px;
+}
+.articulos-blog:hover h3{
+	color: #ff7500!important;
+}
+/*
+.articulos-blog {
+	background: #8080802e;
+	}*/
+/*nd atrevete*/
